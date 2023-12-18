@@ -69,13 +69,6 @@
               </div>
             </li>
 
-            <!-- 笔记 -->
-            <li @click="goJunNote">
-              <div class="my-menu">
-                📒 <span>笔记</span>
-              </div>
-            </li>
-
             <!-- gpt -->
             <li @click="goJunGpt">
               <div class="my-menu">
@@ -230,13 +223,6 @@
             </div>
           </li>
 
-          <!-- 笔记 -->
-          <li @click="goJunNote">
-            <div class="my-menu">
-              📒 <span>笔记</span>
-            </div>
-          </li>
-
           <!-- gpt -->
           <li @click="goJunGpt">
             <div class="my-menu">
@@ -385,10 +371,6 @@ export default {
     }
   },
   methods: {
-    goJunNote() {
-      window.open("https://note.zhujunpeng.love")
-    },
-
     goJunPan() {
       window.open("https://pan.zhujunpeng.love")
     },
