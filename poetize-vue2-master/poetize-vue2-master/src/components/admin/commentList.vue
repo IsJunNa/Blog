@@ -15,7 +15,7 @@
       <el-table-column prop="source" label="评论来源标识" align="center"></el-table-column>
       <el-table-column prop="type" label="评论来源类型" align="center"></el-table-column>
       <el-table-column prop="userId" label="发表用户ID" align="center"></el-table-column>
-      <el-table-column prop="likeCount" label="点赞数" align="center"></el-table-column>
+      <!-- <el-table-column prop="likeCount" label="点赞数" align="center"></el-table-column> -->
       <el-table-column prop="commentContent" label="评论内容" align="center"></el-table-column>
       <el-table-column prop="commentInfo" label="评论额外信息" align="center"></el-table-column>
       <el-table-column prop="createTime" label="创建时间" align="center"></el-table-column>

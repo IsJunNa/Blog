@@ -64,8 +64,8 @@
         <div style="font-size: 20px;font-weight: bold;margin-top: 40px">🌸本站信息</div>
         <div>
           <blockquote>
-            <div>网站名称: Jun博客</div>
-            <div>网址: https://wwwzhujunpeng.love</div>
+            <div>网站名称:Jun博客</div>
+            <div>网址:zhujunpeng.love</div>
             <div>头像:cdn.zhujunpeng.love/Jun.jpg</div>
             <div>网站封面:cdn.zhujunpeng.love/indexImg.png</div>
             <div>描述: 这是一个 Vue2 Vue3 与 SpringBoot 结合的产物～</div>

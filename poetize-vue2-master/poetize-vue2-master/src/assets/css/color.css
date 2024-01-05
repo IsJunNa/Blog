@@ -70,7 +70,7 @@
     --green: #67C23A;
     --black: black;
     --lightYellow: #F4E1C0;
-
+    /* 字体 */
     --globalFont: SmileySans;
 
     --commentURL: url(https://cdn.zhujunpeng.love/comment.jpg);
@@ -80,6 +80,6 @@
     --bannerWave1: url(https://cdn.zhujunpeng.love/bannerwave1.png) repeat-x;
     --bannerWave2: url(https://cdn.zhujunpeng.love/bannerwave2.png) repeat-x;
     --verifyImage: url(https://cdn.zhujunpeng.love/bg1.jpg);
-    --toolbar: url(https://cdn.zhujunpeng.love/bg.jpg);
-    --love: url(https://cdn.zhujunpeng.love/bg.jpg);
+    /* --toolbar: url(https://cdn.zhujunpeng.love/bg.jpg);
+    --love: url(https://cdn.zhujunpeng.love/bg.jpg); */
 }

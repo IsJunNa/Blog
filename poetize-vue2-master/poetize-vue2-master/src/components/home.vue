@@ -372,11 +372,21 @@ export default {
   },
   methods: {
     goJunPan() {
-      window.open("https://pan.zhujunpeng.love")
+      if (this.$common.isEmpty(this.$store.state.currentUser)) {
+        this.$message({
+          message: "请先登录！",
+          type: "error"
+        });
+      } else window.open("https://pan.zhujunpeng.love")
     },
 
     goJunGpt() {
-      window.open("https://gpt.zhujunpeng.love")
+      if (this.$common.isEmpty(this.$store.state.currentUser)) {
+        this.$message({
+          message: "请先登录！",
+          type: "error"
+        });
+      } else window.open("https://gpt.zhujunpeng.love")
     },
 
     smallMenu(data) {

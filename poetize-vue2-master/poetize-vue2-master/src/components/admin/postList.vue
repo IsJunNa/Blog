@@ -33,7 +33,7 @@
       <el-table-column prop="sort.sortName" label="分类" align="center"></el-table-column>
       <el-table-column prop="label.labelName" label="标签" align="center"></el-table-column>
       <el-table-column prop="viewCount" label="浏览量" align="center"></el-table-column>
-      <el-table-column prop="likeCount" label="点赞数" align="center"></el-table-column>
+      <!-- <el-table-column prop="likeCount" label="点赞数" align="center"></el-table-column> -->
       <el-table-column label="是否可见" align="center">
         <template slot-scope="scope">
           <el-tag :type="scope.row.viewStatus === false ? 'danger' : 'success'"

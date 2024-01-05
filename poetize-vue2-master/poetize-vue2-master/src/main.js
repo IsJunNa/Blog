@@ -8,7 +8,6 @@ import common from './utils/common'
 import constant from './utils/constant'
 import mavonEditor from 'mavon-editor'
 //引入js
-import './utils/live2d'
 import './utils/title'
 //引入css
 import './assets/css/animation.css'
@@ -18,8 +17,15 @@ import './assets/css/color.css'
 import './assets/css/markdown-highlight.css'
 import './assets/css/font-awesome.min.css'
 import 'mavon-editor/dist/css/index.css'
+import { vueBaberrage } from 'vue-baberrage'
+// 看板娘
+/* import './utils/live2d' */
+// 雪花特效
+import './utils/new/snow'
+// 禁用控制台
+import './utils/new/ban'
 
-import {vueBaberrage} from 'vue-baberrage'
+
 
 Vue.use(ElementUI)
 Vue.use(vueBaberrage)

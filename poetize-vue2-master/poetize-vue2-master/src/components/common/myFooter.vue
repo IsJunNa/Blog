@@ -2,7 +2,12 @@
   <div class="myFooter-wrap" v-show="showFooter">
     <div class="myFooter">
       <div class="footer-title">{{ $store.state.webInfo.footer }}</div>
-      <div class="icp"><a href="https://beian.miit.gov.cn/" target="_blank">湘ICP备2023023578号-1</a></div>
+      <div class="icp">
+        <a href="https://beian.miit.gov.cn/" target="_blank">湘ICP备2023023578号-1</a>
+        <span style="margin: 0 10px;">|</span>
+        <!-- <img src="https://icp.gov.moe/images/ico64.png" style="width: 20px;"> -->
+        <a href="https://icp.gov.moe/?keyword=20240930" target="_blank">萌ICP备20240930号</a>
+      </div>
     </div>
   </div>
 </template>
@@ -47,6 +52,9 @@ export default {
 .icp a {
   color: var(--maxGreyFont);
   font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icp {
